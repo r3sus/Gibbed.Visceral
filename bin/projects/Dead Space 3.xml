@@ -1,0 +1,21 @@
+<project>
+	<name>Dead Space 3</name>
+	<dependencies>
+		<dependency>Shared</dependency>
+	</dependencies>
+	<list_location>Dead Space 3</list_location>
+	<install_locations>
+		<install_location>
+			<action type="registry" key="HKEY_LOCAL_MACHINE\SOFTWARE\EA Games\Dead Space 3" value="Install Dir" />
+		</install_location>
+		<install_location>
+			<action type="registry" key="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\EA Games\Dead Space 3" value="Install Dir" />
+		</install_location>
+		<install_location>
+			<action type="registry" key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\deadspace3.exe" value="Path" />
+		</install_location>
+		<install_location>
+			<action type="path">D:\Games\Dead Space 3</action>
+		</install_location>
+	</install_locations>
+</project>
